@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://test-backend.test/api'
+  apiUrl: 'https://test-web-icm-app.herokuapp.com/api'
 };
