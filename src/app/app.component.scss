@@ -1,0 +1,25 @@
+#particles-js {
+  min-height: 100vh;
+  // position: relative;
+}
+
+.bg-dark {
+  background-color: rgb(46, 46, 46) !important;
+}
+
+.navbar-brand {
+  color: #55c3ff;
+  font-weight: bold;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  font-style: oblique;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #ffc107 !important;
+}

@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-6 col-sm-12">
+    <label [for]="inputId" class="form-label">Input:</label>
+    <textarea 
+      class="form-control output" 
+      [id]="inputId" 
+      [(ngModel)]="inputValue"
+      rows="5"
+    ></textarea>
+    <button class="btn btn-warning float-right input-button full-width" (click)="sendInput()">Resolver</button>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <label [for]="outputId" class="form-label">Output:</label>
+    <pre [id]="outputId" class="output" [innerHTML]="output"></pre>
+  </div>
+</div>
