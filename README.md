@@ -7,7 +7,7 @@ Clone thhis repository and run `npm install` for install dependences.
 
 
 ## 2. API URL update
-Modify the `environmet.ts` file for the locale or the `environmet.prod.ts` file for a production environment, as follows:
+Modify `apiUrl` in `environmet.ts` file for the locale or the `environmet.prod.ts` file for a production environment, as follows:
 ```javascript
   export const environment = {
     // ...
