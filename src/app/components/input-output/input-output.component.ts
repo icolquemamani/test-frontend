@@ -11,16 +11,17 @@ export class InputOutputComponent implements OnInit {
   @Output() inputEnter = new EventEmitter();
 
   inputValue: string = '';
-  inputId = 'input' + this.key;
-  outputId = 'output' + this.key;
+  inputId = 'input-';
+  outputId = 'output-';
 
   constructor() { }
 
   ngOnInit(): void {
+    this.inputId = 'input-' + this.key;
+    this.outputId = 'output-' + this.key;
   }
 
   sendInput() {
-    console.log(this.inputValue);
     this.inputEnter.emit(this.inputValue);
   }
 }
